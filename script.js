@@ -1,3 +1,8 @@
+$('body').css({'overflow':'hidden'});
+$(document).bind('scroll',function () { 
+     window.scrollTo(0,0); 
+});
+
 // References.
 const canvas = document.getElementById("gameCanvas");                                   // The Canvas.
 const background = document.getElementById("background");                               // The Background Canvas.
