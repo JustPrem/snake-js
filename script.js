@@ -1,6 +1,3 @@
-// To stop people from scrollign with the Arrows.
-window.scrollTo(0, 0);
-
 // References.
 const canvas = document.getElementById("gameCanvas");                                   // The Canvas.
 const background = document.getElementById("background");                               // The Background Canvas.
@@ -60,6 +57,9 @@ function StartGame()
 // The Main Function.
 function Main()
 {
+    // Stop scrolling.
+    window.scrollTo(0, 0);
+
     if (didGameEnd())
     {
         return;
