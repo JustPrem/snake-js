@@ -8,7 +8,7 @@ scoreText.style.visibility = "hidden";
 
 // Game Variables.
 const unitSize = 25;                                                                    // The size of the Units.
-const gameSpeed = 125;
+const gameSpeed = 125;                                                                  // Speed of the game.
 const CANVAS_BORDER_COLOUR = "#FFFFFF";
 const CANVAS_BACKGROUND_COLOUR = "#303030";
 const SNAKE_COLOUR = 'lightgreen';
